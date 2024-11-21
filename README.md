@@ -1,9 +1,11 @@
 **Plagiarism Detector**
+
 A machine learning-based application designed to detect plagiarism in text documents. This tool analyzes text content and identifies potential similarities using natural language processing (NLP) techniques.
 A robust and user-friendly Chrome extension powered by a machine learning model to detect plagiarism in text. The extension integrates a Flask-based backend and leverages a pre-trained model (model.pkl) to analyze input text and provide predictions.
 
 
 **Features**
+
 Text Detection: Analyze text for plagiarism using a trained machine learning model.
 Chrome Integration: Interact with the system directly through a browser extension.
 Flask Backend: A lightweight REST API for model inference.
@@ -12,6 +14,7 @@ User-Friendly Interface: Simple and intuitive Chrome extension UI for entering a
 
 
 **Technologies Used**
+
 Python: For backend and model integration.
 Flask: To create the REST API and for deployment.
 NLP: Scikit-learn, NLTK, string
@@ -36,6 +39,7 @@ The server processes the input and returns the prediction, which is displayed in
 
 
 **Future Enhancements**
+
 Deploy the Flask backend to the cloud for global access.
 Add support for real-time plagiarism checking in text editors (e.g., Google Docs, Word).
 Enhance the UI for better user interaction.
